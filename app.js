@@ -10,11 +10,11 @@ app.get('/home', function(request, response) {
 })
 
 
-
 app.get('/', function(request, response) {
   //response.send('Hello World!')
   res.sendfile(__dirname + '/public/index.html');
 })
+
 
 app.listen(app.get('port'), function() {
   console.log("Node app is running at localhost:" + app.get('port'))

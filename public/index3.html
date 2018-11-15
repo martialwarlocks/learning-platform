@@ -1,0 +1,43 @@
+<html>
+<head>
+	<title>Learners' platform</title>
+	<script type="text/javascript" src="/js/learners.js"></script>
+</head>
+<body>
+<h1>Learners' platform</h1>
+<div id="myid"></div>
+
+<form>
+	Name:<br/>
+	<input id="name" type="text" name="myname">
+	<br/>
+
+	Mobile:<br/>
+	<input id="mobile">
+	<br/>
+
+</form>
+<br/>
+<button onclick="add()">Submit</button>
+
+<h1>List of names</h1>
+<div id="names"> 
+</div>
+
+<hr>
+<p>Here, we are going to learn mouse events today</p>
+<ol>
+	<li>Click event</li>
+	<div id="myname" style="color:blue">My name is Yatin Sangwan</div>
+	<button onclick="singleClick()">ClickMe</button>
+	<li>Double click event</li>
+	<div id="mydad" style="color:green">2+2=4</div>
+	<button ondblclick="doubleclick()">dont click me:)</button>
+	<li>mouse over event</li>
+	<div id="mouse" style="color:blue">papa</div>
+	<button onmouseover="overmouse()" onmouseout="mouseout()">try me!</button>
+	<div id="outblha" style="color:blue">papa</div>
+
+</ol>
+</body>
+</html>
