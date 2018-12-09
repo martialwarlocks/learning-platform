@@ -1,9 +1,64 @@
 <!DOCTYPE html>
 <html>
 <head>
+	<style type="text/css">
+		.box1{
+			width: 100px;
+			height: 20px;
+			border: 20px solid red;		
+		}
+		.box2{
+			border-style: dotted;
+		}
+		.box3{
+			border-style: solid;
+		}
+		.box3{
+			border-style: dashed;
+			}
+		.box4{
+			border-style: inset;
+			width: 50px;
+		}
+		.box5{
+			border-style: outset;
+		}
+		.box6{
+			border-style: solid;
+			width: 100px;
+			height: 100px;
+		}
+		#wrap{
+			width: 500px;
+			height: 500px;
+		}
+		.left{
+			height: 500px;
+			width: 500px;
+			background-color: red;
+		}
+		.right{
+			height: 500px;
+			width: 500px;
+			background-color: blue;
+		}
+	</style>
 	<title></title>
 </head>
+
 <body>
-<h1>This is my home page</h1>
+	<div class="box1">This is the first box</div>
+	<h1>dotted</h1>
+	<div class="box2">This is dotted</div>
+	<h1>dashed</h1>
+	<div class="box3">This is dashed</div>
+	<h1>inset</h1>
+	<div class="box4">This is inset</div>
+	<h1>outset</h1>
+	<div class="box5">This is outset</div>
+	<div class="box6">This is a box</div>
+	<div id="wrap"></div>
+	<div class="left">Left</div>
+	<div class="right">Right</div>
 </body>
 </html>
